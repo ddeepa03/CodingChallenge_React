@@ -1,0 +1,36 @@
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.modal-content label, .modal-content input, .modal-content select {
+  display: block;
+  width: 35%;
+  margin-top: 10px;
+  padding: 8px;
+}
+.modal-content label{
+  text-align: left;
+    
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+th, td {
+  padding: 10px 20px; 
+  text-align: center;
+}
+.action-buttons {
+  display: flex;
+  gap: 10px; 
+}
+
+
+
